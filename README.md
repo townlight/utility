@@ -15,4 +15,7 @@ CivicUtility v0.1.1 is pinned to `civiccore==0.3.0`.
 
 Optional workpaper persistence is available with `CIVICUTILITY_WORKPAPER_DB_URL`. Set it to a SQLAlchemy database URL to store CSR-safe account snapshots and service-request intake drafts for later review. If unset, POST endpoints remain stateless and retrieval endpoints return an actionable setup message.
 
-Apache 2.0 code. CC BY 4.0 docs.
+## License
+
+Code: AGPL-3.0-only, with the TownLight Public Institution Exception for qualifying deployments. See [LICENSE](LICENSE) and [LICENSE-EXCEPTION.md](LICENSE-EXCEPTION.md).
+Documentation: CC BY 4.0 ([LICENSE-DOCS](LICENSE-DOCS)).
