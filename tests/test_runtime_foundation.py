@@ -26,7 +26,7 @@ def test_health_reports_civiccore_pin():
 
 def test_public_ui_contains_version_boundaries_and_dependency():
     text = client.get("/civicutility").text
-    assert "CivicUtility v0.1.1" in text
+    assert "Townlight Utilities v0.1.1" in text
     assert "No utility billing" in text
     assert "civiccore==0.3.0" in text
 

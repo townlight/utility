@@ -1,4 +1,6 @@
-# CivicUtility Implementation Plan
+<a id="civicutility-implementation-plan"></a>
+
+# Townlight Utilities Implementation Plan
 
 ## v0.1.0
 
@@ -12,6 +14,6 @@ Ship the runtime foundation only:
 ## Later
 
 - Read-only billing-system adapters.
-- Civic311 handoff integration.
+- Townlight 311 handoff integration.
 - Staff review queues.
-- Optional local LLM prompt layer through CivicCore.
+- Optional local LLM prompt layer through Townlight Core.

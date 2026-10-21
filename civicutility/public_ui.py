@@ -1,4 +1,4 @@
-"""HTML landing surface for the CivicUtility runtime."""
+"""HTML landing surface for the Townlight Utilities runtime."""
 
 
 def render_public_lookup_page() -> str:
@@ -8,7 +8,7 @@ def render_public_lookup_page() -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="data:,">
-  <title>CivicUtility v0.1.1</title>
+  <title>Townlight Utilities v0.1.1</title>
   <style>
     :root{--ink:#18211f;--muted:#52615d;--line:#b8d1c7;--card:#fffaf1;--accent:#0f766e;--bg:#eef8f3}
     body{margin:0;font-family:Aptos,Segoe UI,sans-serif;background:radial-gradient(circle at 10% 10%,#d8fff4,var(--bg) 38%,#fff7e8);color:var(--ink)}
@@ -24,9 +24,9 @@ def render_public_lookup_page() -> str:
 </head>
 <body>
 <main>
-  <p class="eyebrow">CivicSuite / CivicUtility</p>
+  <p class="eyebrow">Townlight / Townlight Utilities</p>
   <h1>Utility customer service without touching billing systems.</h1>
-  <p>CivicUtility v0.1.1 helps CSRs answer cited billing-policy questions, view safe read-only account context, draft payment arrangements for review, and prepare service-request handoffs.</p>
+  <p>Townlight Utilities v0.1.1 helps CSRs answer cited billing-policy questions, view safe read-only account context, draft payment arrangements for review, and prepare service-request handoffs.</p>
   <section class="grid">
     <article class="card"><h2>Ships Today</h2><p>Policy Q&A, CSR-safe account summaries, arrangement drafts, service request intake, and deterministic API endpoints.</p></article>
     <article class="card"><h2>Human Review</h2><p>CSRs approve resident-facing answers, account guidance, and any arrangement language before use.</p></article>
@@ -34,9 +34,9 @@ def render_public_lookup_page() -> str:
   </section>
   <section class="card" style="margin-top:24px">
     <h2>Architecture</h2>
-    <p><strong>Resident / CSR request</strong> → CivicUtility deterministic API → CivicCore foundation. External billing and Civic311 integrations are read/handoff roadmap items, not v0.1.1 write paths.</p>
+    <p><strong>Resident / CSR request</strong> → Townlight Utilities deterministic API → Townlight Core foundation. External billing and Townlight 311 integrations are read/handoff roadmap items, not v0.1.1 write paths.</p>
   </section>
-  <p>Dependency: <code>civiccore==0.3.0</code>. Repo: <a href="https://github.com/CivicSuite/civicutility">CivicSuite/civicutility</a>.</p>
+  <p>Dependency: <code>civiccore==0.3.0</code>. Repo: <a href="https://github.com/townlight/utility">CivicSuite/civicutility</a>.</p>
 </main>
 </body>
 </html>

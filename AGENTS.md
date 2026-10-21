@@ -1,5 +1,7 @@
-# CivicUtility Agent Notes
+<a id="civicutility-agent-notes"></a>
 
-Do not implement utility billing, payment processing, rate-engine behavior, account writes, shutoff/reconnect decisions, live LLM calls, live billing connectors, or Civic311 write-back in v0.1.1.
+# Townlight Utilities Agent Notes
 
-Use `civiccore==0.3.0` and do not import from CivicCore placeholder packages.
+Do not implement utility billing, payment processing, rate-engine behavior, account writes, shutoff/reconnect decisions, live LLM calls, live billing connectors, or Townlight 311 write-back in v0.1.1.
+
+Use `civiccore==0.3.0` and do not import from Townlight Core placeholder packages.

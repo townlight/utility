@@ -32,7 +32,7 @@ def answer_utility_question(
         citations=citations,
         csr_review_required=True,
         boundary=(
-            "CivicUtility is a copilot for policy and service-rule answers, not a utility "
+            "Townlight Utilities is a copilot for policy and service-rule answers, not a utility "
             "billing system, payment processor, rate engine, or account system of record."
         ),
     )

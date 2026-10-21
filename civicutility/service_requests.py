@@ -1,4 +1,4 @@
-"""Service request intake helpers with Civic311 handoff boundaries."""
+"""Service request intake helpers with Townlight 311 handoff boundaries."""
 
 from dataclasses import dataclass
 
@@ -25,7 +25,7 @@ def prepare_service_request(
         civic311_handoff_recommended=True,
         not_work_order=True,
         boundary=(
-            "Draft intake only: CivicUtility does not dispatch crews, create work orders, "
+            "Draft intake only: Townlight Utilities does not dispatch crews, create work orders, "
             "or replace Civic311/public works systems of record."
         ),
     )
