@@ -1,4 +1,4 @@
-"""FastAPI runtime foundation for CivicUtility."""
+"""FastAPI runtime foundation for Townlight Utilities."""
 
 import os
 
@@ -20,9 +20,9 @@ from civicutility.public_ui import render_public_lookup_page
 from civicutility.service_requests import prepare_service_request
 
 app = FastAPI(
-    title="CivicUtility",
+    title='Townlight Utilities',
     version=__version__,
-    description="Utility customer-service copilot foundation for CivicSuite.",
+    description='Utility customer-service copilot foundation for Townlight.',
 )
 
 _workpaper_repository: UtilityWorkpaperRepository | None = None
@@ -75,13 +75,13 @@ def root() -> dict[str, str]:
         "version": __version__,
         "status": "utility customer-service foundation",
         "message": (
-            "CivicUtility policy Q&A, CSR-safe account context, payment-arrangement drafts, "
+            "Townlight Utilities policy Q&A, CSR-safe account context, payment-arrangement drafts, "
             "service-request intake, optional database-backed account/service workpapers, "
             "and public UI foundation are online; utility billing, "
             "payments, shutoff/reconnect decisions, live billing connectors, live LLM calls, "
-            "and Civic311 write-back are not implemented yet."
+            "and Townlight 311 write-back are not implemented yet."
         ),
-        "next_step": "Post-v0.1.1 roadmap: billing-system read adapters and Civic311 handoff integration",
+        "next_step": "Post-v0.1.1 roadmap: billing-system read adapters and Townlight 311 handoff integration",
     }
 
 
@@ -122,7 +122,7 @@ def get_account_context(snapshot_id: str) -> dict[str, object]:
         raise HTTPException(
             status_code=503,
             detail={
-                "message": "CivicUtility workpaper persistence is not configured.",
+                "message": "Townlight Utilities workpaper persistence is not configured.",
                 "fix": "Set CIVICUTILITY_WORKPAPER_DB_URL to retrieve persisted account snapshots.",
             },
         )
@@ -160,7 +160,7 @@ def get_service_request(intake_id: str) -> dict[str, object]:
         raise HTTPException(
             status_code=503,
             detail={
-                "message": "CivicUtility workpaper persistence is not configured.",
+                "message": "Townlight Utilities workpaper persistence is not configured.",
                 "fix": "Set CIVICUTILITY_WORKPAPER_DB_URL to retrieve persisted service-request intakes.",
             },
         )

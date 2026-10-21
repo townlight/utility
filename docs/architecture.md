@@ -1,8 +1,10 @@
-# CivicUtility Architecture
+<a id="civicutility-architecture"></a>
 
-CivicUtility v0.1.0 is a thin, deterministic FastAPI module over CivicCore. It provides a safe customer-service copilot foundation without becoming a utility billing system.
+# Townlight Utilities Architecture
 
-![CivicUtility architecture](architecture-civicutility.svg)
+Townlight Utilities v0.1.0 is a thin, deterministic FastAPI module over Townlight Core. It provides a safe customer-service copilot foundation without becoming a utility billing system.
+
+![Townlight Utilities architecture](architecture-civicutility.svg)
 
 ## Shipped
 
@@ -20,4 +22,4 @@ CivicUtility v0.1.0 is a thin, deterministic FastAPI module over CivicCore. It p
 - Shutoff or reconnect decisions.
 - Live billing connectors.
 - Live LLM calls.
-- Civic311 write-back.
+- Townlight 311 write-back.

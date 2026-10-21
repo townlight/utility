@@ -20,7 +20,7 @@ def draft_payment_arrangement(account_id: str, csr_inputs: list[str]) -> Payment
         csr_review_required=True,
         not_payment_processing=True,
         boundary=(
-            "Draft only: CivicUtility does not process payments, approve arrangements, "
+            "Draft only: Townlight Utilities does not process payments, approve arrangements, "
             "change account status, or replace the utility billing system."
         ),
     )

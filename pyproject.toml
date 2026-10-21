@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "civicutility"
 version = "0.1.1"
-description = "CivicUtility foundation for utility customer-service policy Q&A, account context, arrangement drafts, and service request intake."
+description = "Townlight Utilities foundation for utility customer-service policy Q&A, account context, arrangement drafts, and service request intake."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "AGPL-3.0-only" }

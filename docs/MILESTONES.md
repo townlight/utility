@@ -1,4 +1,6 @@
-# CivicUtility Milestones
+<a id="civicutility-milestones"></a>
+
+# Townlight Utilities Milestones
 
 ## Milestone 0-7: v0.1.0 Runtime Foundation
 
@@ -14,6 +16,6 @@ Acceptance criteria:
 ## Post-v0.1.0
 
 - Billing read adapters.
-- Civic311 handoff.
+- Townlight 311 handoff.
 - Staff workflow UI.
 - Local LLM provider integration.
